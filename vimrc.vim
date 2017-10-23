@@ -90,8 +90,8 @@ set showmatch
 set mat=2
 
 " No annoying sound on errors
-set noerrorbells
-set novisualbell
+"set noeb
+"set novisualbell
 set t_vb=
 set tm=500
 
@@ -208,7 +208,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Pydiction'
 Plugin 'kien/ctrlp.vim'
 Plugin 'syntastic'
-Plugin 'ctags.vim'
+"Plugin 'ctags.vim'
 "my bundle plugin
  
 call vundle#end()
