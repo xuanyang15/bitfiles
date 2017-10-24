@@ -202,6 +202,7 @@ set rtp+=$VIM\vimfiles\bundle\Vundle.vim\
 call vundle#begin()
 "let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -225,11 +226,15 @@ let NERDTreeShowHidden=1
 " 设置宽度
 let NERDTreeWinSize=21
 " 在终端启动vim时，共享NERDTree
-let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_open_on_console_startup=0
+" gui时打开文件夹是tree自动出现
+let g:nerdtree_tabs_open_on_gui_startup=2
 " 忽略一下文件的显示
 let NERDTreeIgnore=['\.pyc','\~$','\.swp']
 " 显示书签列表
 let NERDTreeShowBookmarks=1
+" 设置书签箭头
+let NERDTreeDirArrows=0
 
 " --------------------------------设置pydiction-----------------------------------
 " 设置pydiction位置
