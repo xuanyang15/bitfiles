@@ -226,7 +226,7 @@ let NERDTreeShowHidden=1
 " 设置宽度
 let NERDTreeWinSize=21
 " 在终端启动vim时，共享NERDTree
-let g:nerdtree_tabs_open_on_console_startup=0
+let g:nerdtree_tabs_open_on_console_startup=2
 " gui时打开文件夹是tree自动出现
 let g:nerdtree_tabs_open_on_gui_startup=2
 " 忽略一下文件的显示
